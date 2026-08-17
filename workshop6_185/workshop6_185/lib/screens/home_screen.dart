@@ -50,7 +50,7 @@ class _HomeScreenState extends State<HomeScreen > {
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             Navigator.push(context,
-            MaterialPageRoute(builder: (_) => const AddNoteScreen ()));
+            MaterialPageRoute(builder: (_) => const AddNoteScreen (note: null,)));
           },
           backgroundColor: Theme.of(context).colorScheme.primary,
           foregroundColor:Colors.white,

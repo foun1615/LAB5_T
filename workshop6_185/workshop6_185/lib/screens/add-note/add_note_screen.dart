@@ -38,7 +38,7 @@ class _AddNoteScreenState extends State<AddNoteScreen> {
                   context: context, 
                   builder: (context) => AlertDialog(
                     content: 
-                      const Text("คุณต้องการจะลบข้ิมูลใช่หรือไม่"),
+                      const Text("คุณต้องการจะลบข้อมูลใช่หรือไม่"),
                       actions: [
                         TextButton(
                           onPressed: () {

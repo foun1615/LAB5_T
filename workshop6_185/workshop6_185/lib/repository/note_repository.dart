@@ -34,7 +34,7 @@ class NoteRepository {
           id: maps[i]['id'] as int,
           title: maps[i]['title'] as String,
           description: maps[i]['description'] as String,
-          createdAt: DateTime.parse(maps[i]['creatdAt']),
+          createdAt: DateTime.parse(maps[i]['createdAt']),
         );
       });
     }
